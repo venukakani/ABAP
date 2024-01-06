@@ -31,8 +31,8 @@ This repository contains a collection of ABAP programs that I have practiced.
 2. **Program 2:**
 
 - Program Overview:
+-The ABAP program ABAP_Prog2 allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division) based on user input through a selection screen.
 
-The ABAP program ABAP_Prog2 allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division) based on user input through a selection screen.
 Selection Screen Blocks:
 
 The program has two selection screen blocks (BKL1 and BKL) to organize input parameters and radio buttons for arithmetic operations.
