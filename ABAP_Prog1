@@ -1,0 +1,19 @@
+
+REPORT ZVK_1.
+
+*Data x Type i. "Variable declaration
+*Data y Type i.
+*Data z Type i.
+
+ data : x type i, y type i, z type i.
+
+*x=100. "Syntaxerror
+
+ x = 10. "Initialization
+ y = 20.
+ z = x + y. "Addition
+ write z.   "Display result
+ write : / 'Addition of two numbers is', z.
+
+ write : / 'Addition of two numbers is', z Left-Justified. " Here Left justified is an Option
+ write : / 'Addition of two numbers is', z Centered.
