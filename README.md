@@ -7,7 +7,7 @@ This repository contains a collection of ABAP programs that I have practiced.
 1. **Program 1:**
 -Description:
 - Program Overview:
--This ABAP program, named ZVK_1, performs basic arithmetic operations on three variables (x, y, and z).
+-This ABAP program, named ABAP_Prog1, performs basic arithmetic operations on three variables (x, y, and z).
 -Variable Declaration:
 
 -Three variables, x, y, and z, are declared using the DATA statement.
