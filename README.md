@@ -46,3 +46,24 @@ The program uses the WRITE statement to display the result of the selected arith
 - Start-of-Selection Event:
 The START-OF-SELECTION event processes the user's arithmetic operation selection and performs the corresponding calculation.
 The program provides a simple user interface for performing arithmetic operations and handles user input using the selection screen.
+
+3. **Program 3:**
+
+- Program Overview:
+-The ABAP program ZVK_3 takes two numeric input parameters (P_X and P_Y) and a string parameter (P_str). It then calculates the sum of the numeric parameters and displays the result. Additionally, it outputs information about the entered string, current date, time, and user.
+
+- Input Parameters:
+Two numeric parameters, P_X and P_Y, are declared with default values and set as obligatory (mandatory) for user input.
+A string parameter, P_str, is declared.
+
+- Calculation and Output:
+The program calculates the sum of P_X and P_Y and stores the result in the variable P_Z.
+The result is displayed using the WRITE statement.
+
+- String Input and Output:
+The program takes a string input (P_str) and displays it with color formatting.
+The FORMAT COLOR statement is used to switch on and off color for the output.
+
+- Date and Time Output:
+The program uses WRITE statements to display the current date (sy-datum), time (sy-uzeit), and the current user (sy-uname).
+The program provides a simple demonstration of input parameters, calculations, and output formatting in ABAP, showcasing both numeric and string processing capabilities.
