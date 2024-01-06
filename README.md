@@ -44,5 +44,5 @@ The program uses the WRITE statement to display the result of the selected arith
 - Initialization:
 -The INITIALIZATION event sets labels for input parameters and block titles.
 - Start-of-Selection Event:
--The START-OF-SELECTION event processes the user's arithmetic operation selection and performs the corresponding calculation.
--The program provides a simple user interface for performing arithmetic operations and handles user input using the selection screen.
+The START-OF-SELECTION event processes the user's arithmetic operation selection and performs the corresponding calculation.
+The program provides a simple user interface for performing arithmetic operations and handles user input using the selection screen.
