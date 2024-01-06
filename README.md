@@ -60,7 +60,7 @@ The program provides a simple user interface for performing arithmetic operation
 3. **Program 3:**
 
 - Program Overview:
-The ABAP program ZVK_3 takes two numeric input parameters (P_X and P_Y) and a string parameter (P_str). It then calculates the sum of the numeric parameters and displays the result. Additionally, it outputs information about the entered string, current date, time, and user.
+The ABAP program ABAP_Prog3 takes two numeric input parameters (P_X and P_Y) and a string parameter (P_str). It then calculates the sum of the numeric parameters and displays the result. Additionally, it outputs information about the entered string, current date, time, and user.
 
 - Input Parameters:
 Two numeric parameters, P_X and P_Y, are declared with default values and set as obligatory (mandatory) for user input.
