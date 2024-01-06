@@ -1,0 +1,22 @@
+
+REPORT ZVK_3.
+
+PARAMETERS : P_X TYPE i DEFAULT 10 OBLIGATORY,
+             P_Y TYPE i DEFAULT 20 OBLIGATORY,
+             P_str TYPE STRING LOWER CASE.
+
+
+  DATA P_Z TYPE i.
+  P_Z = P_X + P_Y.
+
+  Write : 'Sum of two numbers is', P_Z.
+
+  FORMAT COLOR 5. "Switch on color 5
+  Write :/'Entered String is', P_str.
+  FORMAT COLOR OFF. "Switch off color
+
+  Write :/ 'Current Date is', sy-datum.
+
+  Write :/ 'Current Time is ', sy-uzeit.
+
+  Write :/ 'Current user is', sy-uname.
