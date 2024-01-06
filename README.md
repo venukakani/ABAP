@@ -19,10 +19,10 @@ This repository contains a collection of ABAP programs that I have practiced.
 - Display Result:
 -The result of the addition (z) is displayed using the WRITE statement.
 - Formatted Output:
-1. The program demonstrates different formatting options for displaying the result.
-2. The result is displayed left-justified using WRITE : / 'Addition of two numbers is', z LEFT-JUSTIFIED.
-3. The result is displayed centered using WRITE : / 'Addition of two numbers is', z CENTERED.
-4. This program essentially adds two numbers (x and y) and showcases different ways to present the result using the WRITE statement with formatting options.
+The program demonstrates different formatting options for displaying the result.
+The result is displayed left-justified using WRITE : / 'Addition of two numbers is', z LEFT-JUSTIFIED.
+The result is displayed centered using WRITE : / 'Addition of two numbers is', z CENTERED.
+This program essentially adds two numbers (x and y) and showcases different ways to present the result using the WRITE statement with formatting options.
 
 2. **Program 2:**
 
