@@ -4,7 +4,7 @@ This repository contains a collection of ABAP programs that I have practiced.
 
 ## Programs
 
-1. **Program 1: Arithmetic Operations**
+1. **Program 1: Arithmetic Operations:**
    
 - Program Overview:
 This ABAP program, named ABAP_Prog1, performs basic arithmetic operations on three variables (x, y, and z).
@@ -28,7 +28,7 @@ The result is displayed left-justified using WRITE : / 'Addition of two numbers 
 The result is displayed centered using WRITE : / 'Addition of two numbers is', z CENTERED.
 This program essentially adds two numbers (x and y) and showcases different ways to present the result using the WRITE statement with formatting options.
 
-2. **Program 2:**
+2. **Program 2: Arithmetic Operations with Selection Screen and Radio Buttons**
 
 - Program Overview:
 The ABAP program ABAP_Prog2 allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division) based on user input through a selection screen.
