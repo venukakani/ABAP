@@ -28,7 +28,7 @@ The result is displayed left-justified using WRITE : / 'Addition of two numbers 
 The result is displayed centered using WRITE : / 'Addition of two numbers is', z CENTERED.
 This program essentially adds two numbers (x and y) and showcases different ways to present the result using the WRITE statement with formatting options.
 
-2. **Program 2 - Arithmetic Operations with Selection Screen and Radio Buttons**
+2. **Program 2 - Arithmetic Operations with Selection Screen and Radio Buttons:**
 
 - Program Overview:
 The ABAP program ABAP_Prog2 allows users to perform basic arithmetic operations (addition, subtraction, multiplication, and division) based on user input through a selection screen.
@@ -57,7 +57,7 @@ The INITIALIZATION event sets labels for input parameters and block titles.
 The START-OF-SELECTION event processes the user's arithmetic operation selection and performs the corresponding calculation.
 The program provides a simple user interface for performing arithmetic operations and handles user input using the selection screen.
 
-3. **Program 3 - Arithmetic Operations with Color Formatting**
+3. **Program 3 - Arithmetic Operations with Color Formatting:**
 
 - Program Overview:
 The ABAP program ABAP_Prog3 takes two numeric input parameters (P_X and P_Y) and a string parameter (P_str). It then calculates the sum of the numeric parameters and displays the result. Additionally, it outputs information about the entered string, current date, time, and user.
