@@ -4,7 +4,7 @@ This repository contains a collection of ABAP programs that I have practiced.
 
 ## Programs
 
-1. **Program 1: Arithmetic Operations **
+1. **Program 1: Arithmetic Operations**
    
 - Program Overview:
 This ABAP program, named ABAP_Prog1, performs basic arithmetic operations on three variables (x, y, and z).
