@@ -1,0 +1,28 @@
+
+
+REPORT ZVK_5.
+
+PARAMETERS : p_x type i default 10 obligatory,
+             p_y type i default 20 obligatory.
+
+data v_z type i.
+
+PARAMETERS: PC1 AS CHECKBOX DEFAULT 'X',
+            PC2 AS CHECKBOX.
+
+  start-of-selection.
+
+  if PC1 = 'X'.
+
+    v_z = p_x + p_y.
+
+    write :/ 'Sum is', v_z.
+  endif.
+
+  if PC2 = 'X'.
+
+    v_z = p_x - p_y.
+
+    write :/ 'Diff is', v_z.
+
+  endif.
