@@ -1,0 +1,44 @@
+
+
+REPORT ZVK_6.
+
+PARAMETERS : p_x type i default 10 obligatory,
+             p_y type i default 20 obligatory.
+
+data v_z type i.
+
+  selection-screen skip 2.
+
+  SELECTION-SCREEN PUSHBUTTON 6(12) B1 USER-COMMAND fc1.
+
+  SELECTION-SCREEN PUSHBUTTON 21(12) B2 USER-COMMAND fc2.
+
+   selection-screen skip 2.
+
+
+  SELECTION-SCREEN PUSHBUTTON 15(12) B3 USER-COMMAND fc3.
+
+  INITIALIZATION.
+
+  B1 = 'ADD'.
+
+  B2 = 'CLEAR'.
+
+  B3 = 'EXIT'.
+
+  AT SELECTION-SCREEN.
+
+  CASE SY-UCOMM.
+
+  WHEN 'FC1'.
+  v_z = p_x + p_y.
+
+  WHEN 'FC2'.
+
+  CLEAR : p_x,
+          p_y.
+
+  WHEN 'FC3'.
+    leave program.
+
+  endcase.
