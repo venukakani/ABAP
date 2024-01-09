@@ -1,0 +1,65 @@
+
+    REPORT ZVK_7.
+
+    types : begin of ty_emp,
+              empno type i,
+              ename(20) type c,
+              empdes(25) type c,
+
+           end of ty_emp.
+
+    "data t_emp1 type table of ty_emp with HEADER LINE.(or)
+
+    data t_emp1 type STANDARD TABLE of ty_emp with HEADER LINE.
+
+
+    CLEAR t_emp1. "clears the header area data
+
+    t_emp1-empno = '4'.
+    t_emp1-ename = 'Venu'.
+    t_emp1-empdes = 'Student'.
+
+    APPEND t_emp1.
+
+    CLEAR t_emp1.
+
+    t_emp1-empno = '5'.
+    t_emp1-ename = 'Venu_Kakani'.
+    t_emp1-empdes = 'Analyst'.
+
+    Append t_emp1.
+
+    CLEAR t_emp1.
+
+    t_emp1-empno = '6'.
+    t_emp1-ename = 'Kakani'.
+    t_emp1-empdes = 'Manager'.
+
+    Append t_emp1.
+
+"   write :/ t_emp1-empno, t_emp1-ename, t_emp1-empdes. "refers to only header data
+
+    loop at t_emp1.
+      write :/ t_emp1-empno, t_emp1-ename, t_emp1-empdes.
+    endloop.
+
+    uline.
+
+    loop at t_emp1 from 1 to 2.
+      write :/ t_emp1-empno, t_emp1-ename, t_emp1-empdes.
+    endloop.
+
+    uline.
+
+    loop at t_emp1 where empdes = 'Analyst'.
+      write :/ t_emp1-empno, t_emp1-ename, t_emp1-empdes.
+    endloop.
+
+    data t_emp2 type table of ty_emp. "internal table without header
+
+    uline.
+    DESCRIBE TABLE t_emp2.
+
+    write :/ 'No. of records in t_emp2 is', sy-tfill.
+
+    uline.
