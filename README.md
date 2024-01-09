@@ -30,3 +30,8 @@ The ABAP program ABAP_Prog3 takes two numeric input parameters (P_X and P_Y) and
 
 - Program Overview:
 -The ABAP program ABAP_Prog5 provides a user interface with parameters for numeric input (p_x and p_y) and three push buttons (B1, B2, and B3) with user commands (fc1, fc2, and fc3). The program allows users to perform addition, clear input fields, or exit the program.
+
+6. **Program 6 - Working with Internal Tables:**
+
+- Program Overview:
+-The ABAP program ABAP_Prog6 demonstrates the usage of internal tables with a header line and without a header line.
